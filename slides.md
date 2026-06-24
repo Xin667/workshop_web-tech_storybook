@@ -37,6 +37,9 @@ lang: de
 | 6 | Bonus (optional, im eigenen Tempo) | – |
 | 7 | Abschluss & Ausblick | 10 Min. |
 
+---
+
+# Hintergrund
 
 ---
 
@@ -175,11 +178,54 @@ Storybook ist die Qualitätssicherung für KI-generierten Code. (Human in the lo
 
 # Übung. Jetzt geht's los
 
-Setup, Lesebeispiel und alle drei Übungen findet ihr in der `uebungen.md` im Repo.
+Setup, Lesebeispiel und alle drei Übungen findet ihr in der `/uebungen` im Repo.
 
 ---
 
 <!-- _class: lead -->
+
+# Storybook in Praix
+
+---
+
+## Storybook im Team-Alltag
+
+Bisher ging es um eure eigene Card. Der eigentliche Wert von Storybook
+zeigt sich aber erst im Team.
+
+```
+Neue Aufgabe im Sprint
+        ↓
+Komponente schon in Storybook vorhanden?
+        ↓
+   ja   → wiederverwenden
+   nein → neue Komponente + Story bauen
+        ↓
+Storybook zeigt sie ab sofort allen im Team
+```
+
+---
+
+## Storybook als gemeinsamer Bezugspunkt
+
+- **Lebende Dokumentation** – Story und Code leben zusammen, nie
+  veraltet wie eine Wiki-Seite.
+- **Geteilter Komponenten-Katalog** – als Webseite deployt, für alle
+  einsehbar (auch Design, PM) – ohne lokales Setup.
+- **Wiederverwendung statt Neubau** – vor jeder neuen Komponente lohnt
+  der Blick: Gibt's die schon?
+- **Gemeinsame Sprache mit Design** – zeigt den echten, laufenden
+  Zustand, nicht nur ein Bild wie in Figma.
+
+---
+
+## Von Dritten gepflegte Standard-Komponentenbibliotheken
+
+- Material UI
+- Ant Desig
+- Shopify Polaris
+
+---
 
 # Abschluss & Ausblick
 
@@ -217,4 +263,4 @@ Schreiben von Code an sich.
 
 <!-- _class: lead -->
 
-## Danke!
+# Danke!
